@@ -1,2 +1,3 @@
 # static-file-server
-node.js
+power by node.js.
+include path|readStream|pipe|error handle.
