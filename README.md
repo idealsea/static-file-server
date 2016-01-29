@@ -2,7 +2,7 @@
 This is a simple node.js server script. It can handle static file request.
 # include path|readStream|pipe|error handle.
 The code below is the whole.
-<pre>
+```js
 var http = require('http');
 var parse = require('url').parse;
 var join = require('path').join;
@@ -34,4 +34,3 @@ var server = http.createServer(function(req, res){
     });
 });
 server.listen(3000);
-</pre>
